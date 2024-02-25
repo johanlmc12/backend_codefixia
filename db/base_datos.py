@@ -4,15 +4,9 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 metadata = MetaData()
-# Configurar la información de la base de datos directamente
-DATABASE_USER = "postgres"
-DATABASE_PASSWORD = "Francisco317"
-DATABASE_HOST = "localhost"
-DATABASE_PORT = 5432
-DATABASE_NAME = "codefixIA"
 
 # Construir la URL de conexión a la base de datos
-DATABASE_URL = "postgresql://postgres:Francisco317@localhost:5432/codefixIA"
+DATABASE_URL = "postgresql://postgres:12345678@localhost:5432/codefixIA"
 
 
 # Crear una nueva instancia de motor de base de datos usando create_engine
